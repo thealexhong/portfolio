@@ -1,0 +1,18 @@
+{
+  "parser": "sugarss",
+  "plugins": {
+    "postcss-easy-import": {
+      "extensions": [
+        ".sss"
+      ]
+    },
+    "postcss-mixins": {
+      "mixinsDir": "./mixins"
+    },
+    "postcss-functions": {
+      "glob": "./functions"
+    },
+    "precss": {},
+    "autoprefixer": {}
+  }
+}
