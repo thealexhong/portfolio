@@ -2,6 +2,7 @@ dependencies:
   "@testing-library/jest-dom": 4.2.4
   "@testing-library/react": 9.4.0_react-dom@16.12.0+react@16.12.0
   "@testing-library/user-event": 7.2.1
+  history: 4.10.1
   normalize.css: 8.0.1
   react: 16.12.0
   react-dom: 16.12.0_react@16.12.0
@@ -5391,6 +5392,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
+  /history/4.10.1:
+    dependencies:
+      "@babel/runtime": 7.8.3
+      loose-envify: 1.4.0
+      resolve-pathname: 3.0.0
+      tiny-invariant: 1.0.6
+      tiny-warning: 1.0.3
+      value-equal: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha512-36nwAD620w12kuzPAsyINPWJqlNbij+hpK1k9XRloDtym8mxzGYl2c17LnV6IAGB2Dmg4tEa7G7DlawS0+qjew==
   /hmac-drbg/1.0.1:
     dependencies:
       hash.js: 1.1.7
@@ -9970,6 +9982,10 @@ packages:
       node: ">=4"
     resolution:
       integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
+  /resolve-pathname/3.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-C7rARubxI8bXFNB/hqcp/4iUeIXJhJZvFPFPiSPRnhU5UPxzMFIl+2E6yY6c4k9giDJAhtV+enfA+G89N6Csng==
   /resolve-url-loader/3.1.1:
     dependencies:
       adjust-sourcemap-loader: 2.0.0
@@ -11042,6 +11058,14 @@ packages:
     dev: false
     resolution:
       integrity: sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+  /tiny-invariant/1.0.6:
+    dev: false
+    resolution:
+      integrity: sha512-FOyLWWVjG+aC0UqG76V53yAWdXfH8bO6FNmyZOuUrzDzK8DI3/JRY25UD7+g49JWM1LXwymsKERB+DzI0dTEQA==
+  /tiny-warning/1.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
   /tmp/0.0.33:
     dependencies:
       os-tmpdir: 1.0.2
@@ -11448,6 +11472,10 @@ packages:
       spdx-expression-parse: 3.0.0
     resolution:
       integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==
+  /value-equal/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-NOJ6JZCAWr0zlxZt+xqCHNTEKOsrks2HQd4MqhP1qy4z1SkbEP467eNx6TgDKXMvUOb+OENfJCZwM+16n7fRfw==
   /vary/1.1.2:
     dev: false
     engines:
@@ -12050,6 +12078,7 @@ specifiers:
   eslint-config-prettier: ^6.9.0
   eslint-plugin-jsx-a11y: ^6.2.3
   eslint-plugin-prettier: ^3.1.2
+  history: ^4.10.1
   husky: ^4.0.9
   lint-staged: ^9.5.0
   normalize.css: ^8.0.1

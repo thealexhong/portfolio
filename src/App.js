@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "./assets/thealexhong.svg";
-import "./App.css";
 
 function App() {
   return (

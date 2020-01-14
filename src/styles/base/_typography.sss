@@ -1,0 +1,42 @@
+@define-mixin fontface $family, $path, $svg, $weight: normal, $style: normal
+  @font-face
+    font-family: $family
+    src: url('$(path).eot')
+    src: url('$(path).eot#iefix') format('embedded-opentype'),
+         url('$(path).woff') format('woff'),
+         url('$(path).ttf') format('truetype'),
+         url('$(path).otf') format('opentype'),
+         url('$(path).svg#$(svg)') format('svg')
+    font-weight: $weight
+    font-style:  $style
+
+@define-mixin fontface-otf $family, $path, $svg, $weight: normal, $style: normal
+  @font-face
+    font-family: $family
+    src: url('$(path).otf') format('opentype')
+    font-weight: $weight
+    font-style:  $style
+
+@define-mixin proxima-nova-soft-style $style
+  @mixin fontface Proxima Nova Soft $(style), assets/fonts/proxima-nova-soft/proxima-nova-soft-$(style),
+                                              proxima-nova-soft-$(style)
+
+@define-mixin proxima-nova-style $style
+  @mixin fontface-otf Proxima Nova $(style), assets/fonts/proxima-nova/proxima-nova-$(style),
+                                              proxima-nova-$(style)
+
+@mixin proxima-nova-soft-style regular
+@mixin proxima-nova-soft-style medium
+@mixin proxima-nova-soft-style semibold
+@mixin proxima-nova-soft-style bold
+
+@mixin proxima-nova-style black
+@mixin proxima-nova-style bold
+@mixin proxima-nova-style bolditalic
+@mixin proxima-nova-style extrabold
+@mixin proxima-nova-style light
+@mixin proxima-nova-style lightitalic
+@mixin proxima-nova-style regular
+@mixin proxima-nova-style regularitalic
+@mixin proxima-nova-style semibold
+@mixin proxima-nova-style semibolditalic
