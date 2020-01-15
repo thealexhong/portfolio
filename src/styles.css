@@ -138,8 +138,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 /**
@@ -147,8 +146,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 /**
@@ -277,274 +275,161 @@ template {
 [hidden] {
   display: none;
 }
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin:          0;
+  padding:         0;
+  border:          0;
+  font-size:       100%;
+  font:            inherit;
+  vertical-align:  baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display:         block;
 }
 body {
-  line-height: 1;
+  line-height:     1;
 }
-ol,
-ul {
-  list-style: none;
+ol, ul {
+  list-style:      none;
 }
-blockquote,
-q {
-  quotes: none;
+blockquote, q {
+  quotes:          none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:         '';
+  content:         none;
 }
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing:  0;
 }
 @font-face {
-  font-family: Proxima Nova Soft regular;
-  src: url("assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.eot");
-  src: url("assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.eot#iefix")
-      format("embedded-opentype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.woff")
-      format("woff"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.ttf")
-      format("truetype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.otf")
-      format("opentype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.svg#proxima-nova-soft-regular")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova Soft regular;
+    src: url('assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.eot');
+    src: url('assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.eot#iefix') format('embedded-opentype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.woff') format('woff'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.ttf') format('truetype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.otf') format('opentype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-regular.svg#proxima-nova-soft-regular') format('svg');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova Soft medium;
-  src: url("assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.eot");
-  src: url("assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.eot#iefix")
-      format("embedded-opentype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.woff")
-      format("woff"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.ttf")
-      format("truetype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.otf")
-      format("opentype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.svg#proxima-nova-soft-medium")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova Soft medium;
+    src: url('assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.eot');
+    src: url('assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.eot#iefix') format('embedded-opentype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.woff') format('woff'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.ttf') format('truetype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.otf') format('opentype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-medium.svg#proxima-nova-soft-medium') format('svg');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova Soft semibold;
-  src: url("assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.eot");
-  src: url("assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.eot#iefix")
-      format("embedded-opentype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.woff")
-      format("woff"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.ttf")
-      format("truetype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.otf")
-      format("opentype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.svg#proxima-nova-soft-semibold")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova Soft semibold;
+    src: url('assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.eot');
+    src: url('assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.eot#iefix') format('embedded-opentype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.woff') format('woff'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.ttf') format('truetype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.otf') format('opentype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-semibold.svg#proxima-nova-soft-semibold') format('svg');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova Soft bold;
-  src: url("assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.eot");
-  src: url("assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.eot#iefix")
-      format("embedded-opentype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.woff")
-      format("woff"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.ttf")
-      format("truetype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.otf")
-      format("opentype"),
-    url("assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.svg#proxima-nova-soft-bold")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova Soft bold;
+    src: url('assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.eot');
+    src: url('assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.eot#iefix') format('embedded-opentype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.woff') format('woff'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.ttf') format('truetype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.otf') format('opentype'),
+         url('assets/fonts/proxima-nova-soft/proxima-nova-soft-bold.svg#proxima-nova-soft-bold') format('svg');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova black;
-  src: url("assets/fonts/proxima-nova/proxima-nova-black.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova black;
+    src: url('assets/fonts/proxima-nova/proxima-nova-black.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova bold;
-  src: url("assets/fonts/proxima-nova/proxima-nova-bold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova bold;
+    src: url('assets/fonts/proxima-nova/proxima-nova-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova bolditalic;
-  src: url("assets/fonts/proxima-nova/proxima-nova-bolditalic.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova bolditalic;
+    src: url('assets/fonts/proxima-nova/proxima-nova-bolditalic.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova extrabold;
-  src: url("assets/fonts/proxima-nova/proxima-nova-extrabold.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova extrabold;
+    src: url('assets/fonts/proxima-nova/proxima-nova-extrabold.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova light;
-  src: url("assets/fonts/proxima-nova/proxima-nova-light.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova light;
+    src: url('assets/fonts/proxima-nova/proxima-nova-light.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova lightitalic;
-  src: url("assets/fonts/proxima-nova/proxima-nova-lightitalic.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova lightitalic;
+    src: url('assets/fonts/proxima-nova/proxima-nova-lightitalic.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova regular;
-  src: url("assets/fonts/proxima-nova/proxima-nova-regular.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova regular;
+    src: url('assets/fonts/proxima-nova/proxima-nova-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova regularitalic;
-  src: url("assets/fonts/proxima-nova/proxima-nova-regularitalic.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova regularitalic;
+    src: url('assets/fonts/proxima-nova/proxima-nova-regularitalic.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova semibold;
-  src: url("assets/fonts/proxima-nova/proxima-nova-semibold.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova semibold;
+    src: url('assets/fonts/proxima-nova/proxima-nova-semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 @font-face {
-  font-family: Proxima Nova semibolditalic;
-  src: url("assets/fonts/proxima-nova/proxima-nova-semibolditalic.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: Proxima Nova semibolditalic;
+    src: url('assets/fonts/proxima-nova/proxima-nova-semibolditalic.otf') format('opentype');
+    font-weight: normal;
+    font-style:  normal;
 }
 body {
   margin: 0;
-  font-family: "Proxima Nova Soft regular", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Proxima Nova Soft regular", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 /* @import '_components'
 @import '_layout' */
@@ -552,34 +437,31 @@ code {
   min-height: 100vh;
 }
 .Home .Home-header {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 .Home .Home-logo {
-  margin-top: 50px;
-  padding: 1.5rem;
+    margin-top: 50px;
+    padding: 1.5rem;
 }
-.Home h1,
-.Home h3,
-.Home p {
-  text-align: center;
+.Home h1,.Home h3,.Home p {
+    text-align: center;
 }
-.Home h1,
-.Home h3 {
-  font-family: "Proxima Nova Soft Bold";
+.Home h1,.Home h3 {
+    font-family: "Proxima Nova Soft Bold";
 }
 .Home h1 {
-  font-size: 1.5rem;
-  padding: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
 }
 .Home h3 {
-  font-size: 1.2rem;
-  padding: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
 }
 .Home p {
-  padding: 0.25rem;
+    padding: 0.25rem;
 }
 .Home-footer {
   font-size: 0.8rem;
